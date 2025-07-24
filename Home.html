@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Home Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #3498db;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px 5px 0 0;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🏠 Home Dashboard</h1>
+        <p>Welcome back! Here's what's happening today.</p>
+    </header>
+
+    <div class="grid">
+        <!-- Quick Links -->
+        <div class="card">
+            <h3>Quick Links</h3>
+            <a href="#" class="btn">Email</a>
+            <a href="#" class="btn">Calendar</a>
+            <a href="#" class="btn">Tasks</a>
+            <a href="#" class="btn">Notes</a>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="card">
+            <h3>Recent Activity</h3>
+            <ul>
+                <li>✅ Submitted project report</li>
+                <li>📅 Meeting with team at 3:00 PM</li>
+                <li>📝 Updated dashboard code</li>
+                <li>🛒 Groceries ordered</li>
+            </ul>
+        </div>
+
+        <!-- To-Do List -->
+        <div class="card">
+            <h3>To-Do Today</h3>
+            <ul>
+                <li>Finish dashboard design</li>
+                <li>Call doctor for appointment</li>
+                <li>Review budget</li>
+                <li>Exercise (30 min)</li>
+            </ul>
+        </div>
+
+        <!-- Weather -->
+        <div class="card">
+            <h3>🌤️ Weather</h3>
+            <p><strong>Location:</strong> Lagos, Nigeria</p>
+            <p><strong>Today:</strong> 32°C, Sunny</p>
+            <p><strong>Forecast:</strong> Clear skies, light wind</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Personal Dashboard. All rights reserved.</p>
+    </footer>
+</div>
+
+</body>
+</html>
