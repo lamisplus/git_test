@@ -1,7 +1,7 @@
 ## 📌 Summary
 
-- Ticket: [JIRA-123](https://your-jira-link)
-- Brief: Short description of what this PR does.
+- Ticket: [JIRA-247](https://your-jira-link)
+- Brief: Created Hello world feature
 - Testing out the effective use of git.
 
 ## ✨ What’s Changed
